@@ -42,8 +42,28 @@ api.get('/:command', (req, res) => {
 
   if (command === 'stall') {
     for (let i = 0; i < 1000000; i++) {
-      for (let j = 0; j < 1000; i++) {
+      for (let j = 0; j < 10000; j++) {
         // do nothing
+      }
+    }
+    serverResponse.sendOk(res, {
+      result: {
+        msg: `From: ${instanceInfo}`,
+        command: req.params.command
+      }
+    });
+    return;
+  }
+
+  if (command === 'rstall') {
+    let min = 0;
+    let max = 49;
+    let r = Math.floor(Math.random() * (max - min)) + min;
+    if (r === 0) {
+      for (let i = 0; i < 1000000; i++) {
+        for (let j = 0; j < 10000; j++) {
+          // do nothing
+        }
       }
     }
     serverResponse.sendOk(res, {
