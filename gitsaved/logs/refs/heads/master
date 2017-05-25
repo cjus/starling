@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 3e720adfd1177504e3258d758ea8417d86f4d93c cjus <Carlos.Justiniano@gmail.com> 1491134152 -0400	commit (initial): Initial commit
+3e720adfd1177504e3258d758ea8417d86f4d93c 31da66d2a100b50c24adedcb3f02e368b7658ab1 cjus <Carlos.Justiniano@gmail.com> 1491134545 -0400	commit: eslint updates
+31da66d2a100b50c24adedcb3f02e368b7658ab1 b77a45cee018e9b82cad10159f9d43d42b55b1e0 cjus <Carlos.Justiniano@gmail.com> 1491142009 -0400	commit: Explaination for configuring redis with docker
+b77a45cee018e9b82cad10159f9d43d42b55b1e0 c0183de96b9e346339cb552de15eceb1c1092cb0 cjus <Carlos.Justiniano@gmail.com> 1491142245 -0400	commit: small typo fix
+c0183de96b9e346339cb552de15eceb1c1092cb0 3c7932b5532eeccac0bb3317a7cc04600b74d43c cjus <Carlos.Justiniano@gmail.com> 1491144945 -0400	commit: commit config.json to avoid confusion
+3c7932b5532eeccac0bb3317a7cc04600b74d43c c76c942294d05e752cded3af00df679def5ee36e cjus <Carlos.Justiniano@gmail.com> 1491174063 -0400	commit: Removed unnecessary files
+c76c942294d05e752cded3af00df679def5ee36e 7d07a40c207c139fc50b3004a50a7ddcb8b707a6 cjus <Carlos.Justiniano@gmail.com> 1491501269 -0400	commit: Serving a website example
+7d07a40c207c139fc50b3004a50a7ddcb8b707a6 864a17c29533ba4f3bda6fcb6ef4bb9c2d5bf1b5 cjus <Carlos.Justiniano@gmail.com> 1491501401 -0400	commit: Example of returning a response using res.json
+864a17c29533ba4f3bda6fcb6ef4bb9c2d5bf1b5 8d8d5e717953c7eee38861744c1d628f9a3515c7 cjus <Carlos.Justiniano@gmail.com> 1493848798 -0400	commit (amend): Restored servicePort to 5000
+8d8d5e717953c7eee38861744c1d628f9a3515c7 7d07a40c207c139fc50b3004a50a7ddcb8b707a6 cjus <Carlos.Justiniano@gmail.com> 1493848858 -0400	reset: moving to HEAD~1
+7d07a40c207c139fc50b3004a50a7ddcb8b707a6 329fea8e02833ba34da61e46547117aa2d2eec27 cjus <Carlos.Justiniano@gmail.com> 1493848895 -0400	commit: Updated to use new hydra-router 1.3.0
+329fea8e02833ba34da61e46547117aa2d2eec27 27c7f7a31b00d623f866c59e9b5ed99393839841 cjus <Carlos.Justiniano@gmail.com> 1493926976 -0400	commit: Routes for testing
+27c7f7a31b00d623f866c59e9b5ed99393839841 2eae2bf4e47a2449e3c842415cf196bb10b0f740 cjus <Carlos.Justiniano@gmail.com> 1494247341 -0400	commit: Added more test endpoints and updated hydraexpress
