@@ -89,6 +89,30 @@ api.get('/:command', (req, res) => {
     process.exit(-1);
   }
 
+  if (command === 'rcrash') {
+    let min = 0;
+    let max = 1000;
+    let r = Math.floor(Math.random() * (max - min)) + min;
+    console.log('r', r);
+    if (r === 534) {
+      serverResponse.sendOk(res, {
+        result: {
+          msg: `Shutting down: ${instanceInfo}`,
+          command: req.params.command
+        }
+      });
+      process.exit(-1);
+    } else {
+      serverResponse.sendOk(res, {
+        result: {
+          msg: `Not shutting down: ${instanceInfo}`,
+          command: req.params.command
+        }
+      });
+      return;
+    }
+  }
+
   serverResponse.sendOk(res, {
     result: {
       msg: `From: ${instanceInfo}`,
