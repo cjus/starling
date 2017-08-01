@@ -1,8 +1,9 @@
 {
   "hydra": {
     "serviceName": "starling-service",
+    "serviceDNS": "starling-service",
     "serviceIP": "",
-    "servicePort": 6666,
+    "servicePort": 0,
     "serviceType": "test",
     "serviceDescription": "test service",
     "redis": {

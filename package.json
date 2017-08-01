@@ -1,17 +1,17 @@
 {
   "name": "starling-service",
-  "version": "0.4.8",
+  "version": "0.4.12",
   "private": true,
   "scripts": {
     "start": "node starling-service.js",
-    "debug": "node-debug starling-service.js",
+    "debug": "node --inspect --debug-brk starling-service.js",
     "test": "mocha specs --reporter spec"
   },
   "engines": {
     "node": ">=6.2.1"
   },
   "dependencies": {
-    "hydra-express": "1.4.6"
+    "hydra-express": "1.4.8-experimental-1"
   },
   "devDependencies": {
     "chai": "3.5.0",

@@ -1,6 +1,6 @@
 /**
- * @name hello-v1-api
- * @description This module packages the Hello API.
+ * @name starling-v1-api
+ * @description This module packages the Starling API.
  */
 'use strict';
 

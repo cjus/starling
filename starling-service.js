@@ -1,7 +1,7 @@
 /**
-* @name Hello
-* @summary Hello Hydra Express service entry point
-* @description says hello
+* @name Starling
+* @summary Starling Hydra Express service entry point
+* @description test service
 */
 'use strict';
 
