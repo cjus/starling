@@ -3,10 +3,11 @@
 * @summary Starling Hydra Express service entry point
 * @description test service
 */
-'use strict';
-
 const hydraExpress = require('hydra-express');
 const hydra = hydraExpress.getHydra();
+
+const HydraExpressLogger = require('fwsp-logger').HydraExpressLogger;
+hydraExpress.use(new HydraExpressLogger());
 
 /**
 * Load configuration file and initialize hydraExpress app.
@@ -22,5 +23,6 @@ hydraExpress.init(`${__dirname}/config/config.json`, () => {
     console.log(serviceInfo);
   })
   .catch((err) => {
+    hydraExpress.log('fatal', err);
     console.log('err', err);
   });

@@ -2,8 +2,6 @@
  * @name starling-v1-api
  * @description This module packages the Starling API.
  */
-'use strict';
-
 const hydraExpress = require('hydra-express');
 const hydra = hydraExpress.getHydra();
 const express = hydraExpress.getExpress();
@@ -86,7 +84,9 @@ api.get('/:command', (req, res) => {
         command: req.params.command
       }
     });
-    process.exit(-1);
+    setTimeout(() => {
+      process.exit(1);
+    }, 1000);
   }
 
   if (command === 'rcrash') {

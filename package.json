@@ -1,6 +1,6 @@
 {
   "name": "starling-service",
-  "version": "0.4.12",
+  "version": "0.4.14",
   "private": true,
   "scripts": {
     "start": "node starling-service.js",
@@ -11,7 +11,8 @@
     "node": ">=6.2.1"
   },
   "dependencies": {
-    "hydra-express": "1.4.8-experimental-1"
+    "fwsp-logger": "0.3.0",
+    "hydra-express": "1.4.13"
   },
   "devDependencies": {
     "chai": "3.5.0",

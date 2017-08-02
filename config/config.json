@@ -1,11 +1,25 @@
 {
   "hydra": {
     "serviceName": "starling-service",
-    "serviceDNS": "starling-service",
+    "serviceDNS": "",
     "serviceIP": "",
-    "servicePort": 0,
+    "servicePort": 5000,
     "serviceType": "test",
     "serviceDescription": "test service",
+    "plugins": {
+      "logger": {
+        "logRequests": false,
+        "noFile": true,
+        "toConsole": false,
+        "redact": ["password"],
+        "elasticsearch": {
+          "rotate": "daily",
+          "host": "host",
+          "port": 9200,
+          "index": "hydra"
+        }
+      }
+    },
     "redis": {
       "url": "redis://127.0.0.1:6379/15"
     }
